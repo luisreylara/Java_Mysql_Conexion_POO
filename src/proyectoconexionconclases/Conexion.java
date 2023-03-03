@@ -8,10 +8,10 @@ import java.sql.SQLException;
  
 public class Conexion {
     
-    String bd = "admin_default";
-    String usuario="admin_luis";
-    String pwd = "2023";
-    String cadena= "jdbc:mysql://datamoviles.tk:3306/";
+    String bd = "";
+    String usuario="";
+    String pwd = "";
+    String cadena= "jdbc:mysql://IP:3306/";
     Connection cx;
     
     public Connection Conectar(){
